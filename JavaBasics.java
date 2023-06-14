@@ -9,7 +9,7 @@ public class JavaBasics
 
         System.out.println("HI");
         System.out.print("HI\n");
-        System.out.print("HI"); 
+        System.out.print("HI");
 
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
