@@ -5,7 +5,7 @@ public class JavaBasics
     {
         int a = 10;
         String name = "Saksham";
-        boolean cg = true;
+        boolean var = true;
 
         System.out.println("HI");
         System.out.print("HI\n");
@@ -14,6 +14,10 @@ public class JavaBasics
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
         String input2 = sc.nextLine();
+        
+        int a = 10;
+        int b = 10;
+        System.out.println("add=" + (a+b)); \\ syntax is imp
         
     }
     
