@@ -13,7 +13,7 @@ public class JavaBasics
 
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
-        String input2 = sc.nextLine();
+        String input2 = sc.nextLine();  
         
         int a = 10;
         int b = 10;
