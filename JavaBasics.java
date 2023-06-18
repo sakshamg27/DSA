@@ -5,7 +5,7 @@ public class JavaBasics
     {
         int a = 10;
         String name = "Saksham";
-        boolean var = true;
+        boolean var = true; 
 
         System.out.println("HI");
         System.out.print("HI\n");
