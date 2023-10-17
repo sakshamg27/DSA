@@ -289,3 +289,35 @@ public class ExtractUniqueCharacters {
 
 	}
 
+	//10
+	package hashMapImplementation;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.ArrayList;
+public class LongestConsecutiveSequence {
+	public static ArrayList<Integer> longestConsecutiveIncreasingSequence(int[] arr)
+	{
+       Map<Integer, Boolean> visitedElements = new HashMap<>();
+       Map<Integer, Integer> elementToIndexMapping = new HashMap<>();
+       for(int i=0;i<arr.length;i++) {
+    	   int num = arr[i];
+    	   elementToIndexMapping.put(num, i);
+    	   if(!visitedElements.containsKey(num)) {
+    		   visitedElements.put(num, false);
+    	   }
+       }
+       ArrayList<Integer> longestSequence = new ArrayList<>();
+       int globalMaxSequenceLength = 1;
+       int globalMinStartIndex = 0;
+       for(int i=0;i<arr.length;i++) {
+    	   int num = arr[i];
+    	   int currentMinStartIndex = i;
+    	   int count = 0;
+    	   int tempNum = num;
+    	   //forward
+    	   while(visitedElements.containsKey(tempNum) && !visitedElements.get(tempNum)) {
+    		   visitedElements.put(tempNum, true); //mark visited elements in the arary as true
+    		   count++;
+    		   tempNum++;
+    	   }
+
