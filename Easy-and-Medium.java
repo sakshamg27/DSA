@@ -8,7 +8,7 @@ public class JavaBasics
         String name = "Saksham";         
         boolean var = true;        
   
-        System.out.println("HI");      //new line      
+        System.out.println("HI");      //new line       
         System.out.print("HI\n");
         System.out.print("HI"); 
 
