@@ -6,7 +6,7 @@ public class JavaBasics
         int a = 10;     //initialising             
 	    
         String name = "Saksham";         
-        boolean var = true;       
+        boolean var = true;        
   
         System.out.println("HI");      //new line      
         System.out.print("HI\n");
