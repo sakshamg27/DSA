@@ -23,7 +23,7 @@ public class JavaBasics
     }
     
 }
-
+ 
 
 //Assignment-1
 class Solution {
