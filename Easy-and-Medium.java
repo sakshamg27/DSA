@@ -18,7 +18,7 @@ public class JavaBasics
         
         int a = 10;        //output
         int b = 10;
-        System.out.println("add=" + (a+b)); \\ syntax is imp
+        System.out.println("add=" + (a+b)); \\ syntax is imp 
         
     }
     
