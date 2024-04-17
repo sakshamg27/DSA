@@ -9,7 +9,7 @@ public class JavaBasics
         boolean var = true;          
   
         System.out.println("HI");      //new line        
-        System.out.print("HI\n");
+        System.out.print("HI\n"); 
         System.out.print("HI"); 
 
         Scanner sc = new Scanner(System.in);       //taking input
