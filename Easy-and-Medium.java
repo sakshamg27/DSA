@@ -15,7 +15,7 @@ public class JavaBasics
         System.out.print("HI\n");  
         System.out.print("HI"); 
 
-        Scanner sc = new Scanner(System.in);       //taking input
+         Scanner sc = new Scanner(System.in);       //taking input
         String input = sc.next();
         String input2 = sc.nextLine();
         
